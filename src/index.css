@@ -1,0 +1,59 @@
+:root {
+  --bg-primary: #f8f9fa; /* Gris muy claro para el fondo */
+  --bg-secondary: #ffffff; /* Blanco para tarjetas */
+  --text-primary: #2b2d42; /* Azul marino muy oscuro para textos */
+  --text-secondary: #6c757d; /* Gris para subtítulos */
+  --accent-color: #0077b6; /* Azul profesional para botones y enlaces */
+  --accent-hover: #023e8a;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.section-title {
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+  border-bottom: 3px solid var(--accent-color);
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.card-custom {
+  background: var(--bg-secondary);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.card-custom:hover {
+  transform: translateY(-5px);
+}
+
+.btn-custom {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.btn-custom:hover {
+  background-color: var(--accent-hover);
+  color: white;
+}
+
+.badge-skill {
+  background-color: #e9ecef;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  border-radius: 20px;
+}
