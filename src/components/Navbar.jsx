@@ -15,6 +15,7 @@ const Navigation = () => {
           <Nav className="ms-auto">
             <Nav.Link href="#perfil" className="fw-semibold">Perfil</Nav.Link>
             <Nav.Link href="#experiencia" className="fw-semibold">Experiencia</Nav.Link>
+            <Nav.Link href="#certificaciones" className="fw-semibold">Certificaciones</Nav.Link>
             <Nav.Link href="#habilidades" className="fw-semibold">Habilidades</Nav.Link>
             <Nav.Link href="#proyectos" className="fw-semibold">Proyectos</Nav.Link>
             <Nav.Link href="#contacto" className="fw-semibold">Contacto</Nav.Link>
