@@ -57,6 +57,7 @@ export const data = {
 
   projects: [
     { name: "Portafolio", desc: "React - Vite - JS", url: "https://portfolio-carlos-vq.netlify.app/" },
+    { name: "Landing Page Sistema de Gestión Clínica", desc: "React - Vite - JS", url: "https://langing-page-clinica.vercel.app/" },
     { name: "Landing Page Fit Club", desc: "React - Vite - JS", url: "https://fit-club-cvq.netlify.app/" },
     { name: "Blog Internet Galería", desc: "React - Vite - JS, Node.js, MySQL", url: "https://blog-internet-gallery.netlify.app/" },
     { name: "Notas App", desc: "React - Vite - JS - Firebase", url: "https://notas-app-cvq.netlify.app/" },
